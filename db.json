@@ -1,10 +1,10 @@
 {
-    "bg": "https://a-static.besthdwallpaper.com/o-senhor-dos-aneis-papel-de-parede-3554x1999-14779_53.jpg",
+    "bg": "https://raw.githubusercontent.com/LucasBissa/quiz-com-nextjs/main/images/background.jpg",
     "title": "Quiz CSS da Alura",
     "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "image": "https://raw.githubusercontent.com/LucasBissa/quiz-com-nextjs/main/images/prev.jpg",
         "title": "Qual era o nome anel que concedia invisibilidade à todos que o usassem?",
         "description": "My precious",
         "answer": 2,
@@ -16,7 +16,7 @@
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+        "image": "https://raw.githubusercontent.com/LucasBissa/quiz-com-nextjs/main/images/prev.jpg",
         "title": "Como se chama o primeiro filme da saga O Senhor Dos Anéis?",
         "description": "Bem fácil",
         "answer": 0,
@@ -27,7 +27,7 @@
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+        "image": "https://raw.githubusercontent.com/LucasBissa/quiz-com-nextjs/main/images/prev.jpg",
         "title": "Qual é a raça de Gandalf?",
         "description": "Essa é para quem é fã",
         "answer": 1,
@@ -39,7 +39,7 @@
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+        "image": "https://raw.githubusercontent.com/LucasBissa/quiz-com-nextjs/main/images/prev.jpg",
         "title": "Qual o nome dos hobbits que adoravam fazer travessuras",
         "description": "Esses hobbits",
         "answer": 3,
@@ -53,8 +53,7 @@
     ],
     "external": [
       "https://thesimpsonsquiz.gabriel-brasil.vercel.app/",
-      "https://quiz-valorant.johnatanivini.vercel.app/",
-      "https://hpquiz.lucianoweslen.dev/"
+      "https://quiz-valorant.johnatanivini.vercel.app/"
     ],
     "theme": {
       "colors": {
