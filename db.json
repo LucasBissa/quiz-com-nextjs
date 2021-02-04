@@ -5,29 +5,56 @@
     "questions": [
       {
         "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
+        "title": "Qual era o nome anel que concedia invisibilidade à todos que o usassem?",
+        "description": "My precious",
         "answer": 2,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "O Anel",
+          "Anel do Poder",
+          "Um Anel",
+          "Nenhuma das alternativas"
         ]
       },
       {
         "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "title": "Como se chama o primeiro filme da saga O Senhor Dos Anéis?",
+        "description": "Bem fácil",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "A sociedade do anel",
+           "As duas torres",
+           "O Hobbit"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+        "title": "Qual é a raça de Gandalf?",
+        "description": "Essa é para quem é fã",
+        "answer": 1,
+        "alternatives": [
+           "Humano",
+           "Maia",
+           "Meio elfo",
+           "Ainur"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+        "title": "Qual o nome dos hobbits que adoravam fazer travessuras",
+        "description": "Esses hobbits",
+        "answer": 3,
+        "alternatives": [
+           "Bilbo e Frodo",
+           "Frodo e sam",
+           "Gimli e Legolas",
+           "Merry e Pippin"
         ]
       }
     ],
     "external": [
-      ""
+      "https://thesimpsonsquiz.gabriel-brasil.vercel.app/",
+      "https://quiz-valorant.johnatanivini.vercel.app/",
+      "https://hpquiz.lucianoweslen.dev/"
     ],
     "theme": {
       "colors": {

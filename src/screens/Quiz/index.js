@@ -23,13 +23,6 @@ function ResultWidget({ results }) {
         <p>
           Você acertou
           {' '}
-          {/* {results.reduce((somatoriaAtual, resultAtual) => {
-            const isAcerto = resultAtual === true;
-            if (isAcerto) {
-              return somatoriaAtual + 1;
-            }
-            return somatoriaAtual;
-          }, 0)} */}
           {results.filter((x) => x).length}
           {' '}
           perguntas
@@ -146,9 +139,6 @@ function QuestionWidget({
             );
           })}
 
-          {/* <pre>
-            {JSON.stringify(question, null, 4)}
-          </pre> */}
           <Button type="submit" disabled={!hasAlternativeSelected}>
             Confirmar
           </Button>
@@ -175,23 +165,16 @@ export default function QuizPage({ externalQuestions, externalBg }) {
   const bg = externalBg;
 
   function addResult(result) {
-    // results.push(result);
     setResults([
       ...results,
       result,
     ]);
   }
 
-  // [React chama de: Efeitos || Effects]
-  // React.useEffect
-  // atualizado === willUpdate
-  // morre === willUnmount
   React.useEffect(() => {
-    // fetch() ...
     setTimeout(() => {
       setScreenState(screenStates.QUIZ);
     }, 1 * 2000);
-  // nasce === didMount
   }, []);
 
   function handleSubmitQuiz() {
