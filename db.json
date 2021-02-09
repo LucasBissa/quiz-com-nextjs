@@ -1,7 +1,7 @@
 {
     "bg": "https://raw.githubusercontent.com/LucasBissa/quiz-com-nextjs/main/images/background.jpg",
-    "title": "Quiz CSS da Alura",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+    "title": "Quiz Senhor dos Anéis",
+    "description": "Teste os seus conhecimentos sobre O Senhor dos Anéis",
     "questions": [
       {
         "image": "https://raw.githubusercontent.com/LucasBissa/quiz-com-nextjs/main/images/prev.jpg",
@@ -52,7 +52,6 @@
       }
     ],
     "external": [
-      "https://thesimpsonsquiz.gabriel-brasil.vercel.app/",
       "https://quiz-valorant.johnatanivini.vercel.app/"
     ],
     "theme": {
